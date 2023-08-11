@@ -1,2 +1,2 @@
 # alx-low_level_programming
- ALX program 
+ c programming language
