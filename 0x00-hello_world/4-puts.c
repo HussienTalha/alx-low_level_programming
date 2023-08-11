@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
- *main - entry point to the code
- *puts : print array of string
- *return : always return 0
+/**
+ * main - Main funtion  is entry point to the code
+ *
+ * puts: print array of string
+ * Return: always return 0
  */
 int main(void)
 {

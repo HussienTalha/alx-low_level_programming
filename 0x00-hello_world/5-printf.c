@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- *main - entry point to the code
- *printf: print
- *return: always return zero
+/**
+ * main - this function is the entry point to the code
+ * printf: print
+ * Return:  always return zero
  */
 int main(void)
 {
