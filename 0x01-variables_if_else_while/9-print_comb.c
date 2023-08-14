@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-int n;
-putchar(48);
-n = 49;
+int n = 48;
 while (n < 58)
 {
+putchar(n);
+if (n == 57)
+break;
 putchar(',');
 putchar(' ');
-putchar(n);
 n++;
 }
 putchar('\n');
