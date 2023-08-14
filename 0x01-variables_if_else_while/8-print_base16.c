@@ -14,7 +14,7 @@ putchar(n);
 n++;
 }
 n = 97;
-while (n < 123)
+while (n < 103)
 {
 putchar(n);
 n++;
