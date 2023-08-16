@@ -12,7 +12,7 @@ if (n <= 98)
 {
 while (n <= 98)
 {
-_putchar(n + '0');
+_putchar('0' + n);
 if (n == 98)
 break;
 _putchar(44);
@@ -24,7 +24,7 @@ if (n > 98)
 {
 while (n > 98)
 {
-_putchar(n + '0');
+_putchar('0' + n);
 if (n == 98)
 break;
 _putchar(44);
