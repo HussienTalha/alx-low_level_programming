@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table - multiply 9 time table
  * _putchar: print char
@@ -21,18 +22,28 @@ if (c > 9)
 first = c / 10;
 _putchar(first + '0');
 last = c % 10;
-_putchar(last + '0');
 if (j == 9)
+{
+putchar(c + '0');
 break;
-_putchar(44);
-_putchar(32);
 }
 else
 {
-_putchar(32);
-_putchar(c + '0');
-if (j == 9)
+putchar(last + '0');
+putchar(44);
+putchar(32);
+}
+}
+else
+{
+putchar(32);
+if (j==9)
+{
+putchar(c + '0');
 break;
+}
+else
+_putchar(c + '0');
 _putchar(44);
 _putchar(32);
 }
