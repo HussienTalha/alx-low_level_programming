@@ -13,16 +13,18 @@ int k = 0;
 int l = 0;
 while (i <= 2)
 {
-_putchar('0' + i);
 while (j <= 4)
 {
-_putchar('0' + j);
 while (k <= 6)
 {
-_putchar('0' + k);
 while (l <= 9)
 {
+_putchar('0' + i);
+_putchar('0' + j);
+_putcahr(58);
+_putchar('0' + k);
 _putchar('0' + l);
+-putchar('\n');
 l++;
 }
 k++;
