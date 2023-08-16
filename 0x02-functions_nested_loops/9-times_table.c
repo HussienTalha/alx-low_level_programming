@@ -22,16 +22,20 @@ first = c / 10;
 _putchar(first + '0');
 last = c % 10;
 _putchar(last + '0');
-}
-else
-{
-_putchar(32);
-_putchar(c + '0');
-}
 if (j == 9)
 break;
 _putchar(44);
 _putchar(32);
+}
+else
+{
+_putchar(c + '0');
+if (j == 9)
+break;
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
 j++;
 }
 _putchar('\n');
