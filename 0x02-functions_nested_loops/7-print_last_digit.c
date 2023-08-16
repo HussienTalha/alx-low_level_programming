@@ -4,11 +4,12 @@
  * @n: argument 1 get its last digit
  * Return: return value of last digit and 0
  */
-
-
 int print_last_digit(int n)
 {
-n = n % 10;
-return (nn);
+float l;
+l = n / 10;
+n = n / 10;
+n = (l - n) * 10;
+return (n);
 return (0);
 }
