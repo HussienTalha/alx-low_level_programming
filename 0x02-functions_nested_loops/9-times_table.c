@@ -1,56 +1,46 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - multiply 9 time table
- * _putchar: print char
+ * times_table - 9 times table,
+ *
+ *
+ *
  *
  */
 void times_table(void)
 {
 int i = 0;
-int j = 0;
+int j = 1;
 int c = 0;
-int first = 0;
-int last = 0;
 while (i <= 9)
 {
+printf("0,");
 while (j <= 9)
 {
 c = i * j;
 if (c > 9)
 {
-first = c / 10;
-_putchar(first + '0');
-last = c % 10;
-if (j == 9)
+if (j != 9)
+printf("%d, ", c);
+else
 {
-_putchar(c + '0');
+printf("%d\n", c);
 break;
 }
+}
+else if (c <= 9)
+{
+if (j != 9)
+printf(" %d, ", c);
 else
 {
-putchar(last + '0');
-putchar(44);
-putchar(32);
-}
-}
-else
-{
-putchar(32);
-if (j==9)
-{
-_putchar(c + '0');
+printf(" %d\n", c);
 break;
 }
-else
-_putchar(c + '0');
-_putchar(44);
-_putchar(32);
 }
 j++;
 }
-_putchar('\n');
+j = 1;
 i++;
-j = 0;
 }
 }
