@@ -24,7 +24,7 @@ _putchar(first + '0');
 last = c % 10;
 if (j == 9)
 {
-putchar(c + '0');
+_putchar(c + '0');
 break;
 }
 else
@@ -39,7 +39,7 @@ else
 putchar(32);
 if (j==9)
 {
-putchar(c + '0');
+_putchar(c + '0');
 break;
 }
 else
