@@ -21,10 +21,10 @@ while (l <= 9)
 {
 _putchar('0' + i);
 _putchar('0' + j);
-_putcahr(58);
+_putchar(58);
 _putchar('0' + k);
 _putchar('0' + l);
--putchar('\n');
+_putchar('\n');
 l++;
 }
 k++;
