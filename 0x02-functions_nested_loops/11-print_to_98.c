@@ -18,7 +18,7 @@ putchar(48 + r);
 if (n == 98)
 break;
 putchar(44);
-putcahrr(32);
+putcahr(32);
 r++;
 }
 }
