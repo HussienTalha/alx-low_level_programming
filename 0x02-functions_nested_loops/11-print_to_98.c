@@ -31,7 +31,7 @@ if (n == 98)
 break;
 _putchar(44);
 _putchar(32);
-r--;
+n--;
 }
 }
 }
