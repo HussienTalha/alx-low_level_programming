@@ -6,10 +6,7 @@
  */
 int print_last_digit(int n)
 {
-float l;
-l = n / 10;
-n = n / 10;
-n = (l - n) * 10;
-return (n);
+n = n % 10;
+_putchar('0' + n);
 return (0);
 }
