@@ -13,7 +13,7 @@ if (r <= 98)
 {
 while (r <= 98)
 {
-_putchar('0' + r);
+_putchar(48 + r);
 if (r == 98)
 break;
 _putchar(44);
@@ -25,7 +25,7 @@ if (r > 98)
 {
 while (r > 98)
 {
-_putchar('0' + r);
+_putchar(48 + r);
 if (r == 98)
 break;
 _putchar(44);
