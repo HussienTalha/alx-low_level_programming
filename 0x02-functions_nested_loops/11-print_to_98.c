@@ -8,25 +8,26 @@
  */
 void print_to_98(int n)
 {
-int r = n;
-if (r <= 98)
+if (n <= 98)
 {
-while (r <= 98)
+while (n <= 98)
 {
+int r = n + 48;
 _putchar(48 + r);
-if (r == 98)
+if (n == 98)
 break;
 _putchar(44);
 _putchar(32);
 r++;
 }
 }
-if (r > 98)
+if (n > 98)
 {
-while (r > 98)
+while (n > 98)
 {
-_putchar(48 + r);
-if (r == 98)
+int y = n + 48;
+_putchar(y);
+if (n == 98)
 break;
 _putchar(44);
 _putchar(32);
