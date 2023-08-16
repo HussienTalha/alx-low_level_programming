@@ -18,8 +18,8 @@ putchar(48 + r);
 if (n == 98)
 break;
 putchar(44);
-putcahr(32);
-r++;
+putchar(32);
+n++;
 }
 }
 if (n > 98)
