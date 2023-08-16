@@ -6,7 +6,7 @@
  * _putchar: print
  *
  */
-void print_to_98(int n)
+void print_to_98(int r)
 {
 if (r <= 98)
 {
