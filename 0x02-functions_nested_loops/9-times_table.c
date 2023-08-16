@@ -10,11 +10,10 @@
 void times_table(void)
 {
 int i = 0;
-int j = 1;
+int j = 0;
 int c = 0;
 while (i <= 9)
 {
-printf("0,");
 while (j <= 9)
 {
 c = i * j;
@@ -40,7 +39,7 @@ break;
 }
 j++;
 }
-j = 1;
+j = 0;
 i++;
 }
 }
