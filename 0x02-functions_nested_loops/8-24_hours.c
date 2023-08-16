@@ -15,7 +15,7 @@ while (i <= 2)
 {
 while (j <= 4)
 {
-while (k <= 6)
+while (k <= 5)
 {
 while (l <= 9)
 {
