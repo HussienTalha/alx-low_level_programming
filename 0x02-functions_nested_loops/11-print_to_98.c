@@ -8,28 +8,28 @@
  */
 void print_to_98(int n)
 {
-if (n <= 98)
+if (r <= 98)
 {
-while (n <= 98)
+while (r <= 98)
 {
-_putchar('0' + n);
-if (n == 98)
+_putchar('0' + r);
+if (r == 98)
 break;
 _putchar(44);
 _putchar(32);
-n++;
+r++;
 }
 }
-if (n > 98)
+if (r > 98)
 {
-while (n > 98)
+while (r > 98)
 {
-_putchar('0' + n);
-if (n == 98)
+_putchar('0' + r);
+if (r == 98)
 break;
 _putchar(44);
 _putchar(32);
-n--;
+r--;
 }
 }
 }
