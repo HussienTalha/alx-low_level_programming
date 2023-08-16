@@ -6,8 +6,9 @@
  * _putchar: print
  *
  */
-void print_to_98(int r)
+void print_to_98(int n)
 {
+int r = n;
 if (r <= 98)
 {
 while (r <= 98)
