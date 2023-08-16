@@ -13,8 +13,7 @@ if (n <= 98)
 {
 while (n <= 98)
 {
-int r = n + 48;
-putchar(48 + r);
+printf("%d", n);
 if (n == 98)
 break;
 putchar(44);
@@ -26,8 +25,7 @@ if (n > 98)
 {
 while (n > 98)
 {
-int y = n + 48;
-putchar(y);
+printf("%d", n);
 if (n == 98)
 break;
 putchar(44);
