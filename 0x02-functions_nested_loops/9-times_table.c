@@ -25,6 +25,7 @@ _putchar(last + '0');
 }
 else
 {
+_putchar(32);
 _putchar(c + '0');
 }
 if (j == 9)
