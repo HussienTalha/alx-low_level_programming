@@ -13,7 +13,7 @@ int k = 0;
 int l = 0;
 while (i <= 2)
 {
-while (j <= 4)
+while (j <= 9)
 {
 while (k <= 5)
 {
@@ -35,5 +35,7 @@ j++;
 }
 j = 0;
 i++;
+if (i = 2 && j = 4)
+break;	
 }
 }
