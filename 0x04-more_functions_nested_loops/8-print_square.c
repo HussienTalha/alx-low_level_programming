@@ -9,17 +9,9 @@ void print_square(int size)
 int k;
 int i;
 k = size;
-if (size >= 0)
+if (size <= 0)
 {
-while (size > 0)
-{
-for (i = 1; i <= k; i++)
-{
-_putchar('#');
-}
 _putchar('\n');
-size--;
-}
 }
 else
 {
