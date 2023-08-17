@@ -12,16 +12,12 @@ for (c = 1; c <= 10; c++)
 {
 int i = 0;
 int j = 0;
-int k = 0;
 while (j <= 1)
 {
-if (j == 0)
-k = 0;
-else
-k = j + 48;
 while (i <= 9)
 {
-_putchar(k);
+if (j == 1)
+_putchar('1');
 _putchar(i + 48);
 if (i == 4 && j > 0)
 break;
