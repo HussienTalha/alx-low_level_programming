@@ -15,9 +15,6 @@ _putchar('\n');
 }
 else
 {
-size = -size;
-k = size;
-if (size >= 0)
 {
 while (size > 0)
 {
