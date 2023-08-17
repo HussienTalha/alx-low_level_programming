@@ -8,25 +8,14 @@
 void more_numbers(void)
 {
 int c;
-for (c = 1; c <= 10; c++)
+int i;
+for (i = 1; i <= 10; i++)
 {
-int i = 0;
-int j = 0;
-while (j <= 1)
+for (c = 0; c <= 14; c++)
 {
-while (i <= 9)
-{
-if (j == 1)
+if (c >= 10)
 _putchar('1');
-_putchar(i + 48);
-if (i == 4 && j > 0)
-break;
-i++;
-}
-if (j > 0 && i == 4)
-break;
-j++;
-i = 0;
+_putchar(c % 10 + '0');
 }
 _putchar('\n');
 }
