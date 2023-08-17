@@ -15,7 +15,7 @@ while (size > 0)
 {
 for (i = 1; i <= k; i++)
 {
-_putchar(35);
+_putchar('#');
 }
 _putchar('\n');
 size--;
@@ -31,7 +31,7 @@ while (size > 0)
 {
 for (i = 1; i <= k; i++)
 {
-_putchar(35);
+_putchar('#');
 }
 _putchar('\n');
 size--;
