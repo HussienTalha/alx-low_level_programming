@@ -11,6 +11,8 @@ int line;
 int i;
 int y;
 line = 1;
+if (size < 0)
+size = -size;
 for (i = 1; i <= size; i++)
 {
 int z;
