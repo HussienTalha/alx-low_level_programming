@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_square - print squares
+ * print_triangle - prints triangle
+ *
  * @size: size of square
  * _putchar: prints
  */
