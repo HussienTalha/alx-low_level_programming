@@ -18,7 +18,7 @@ if (j == 0)
 j = 0;
 else
 j = j + 48;
-while (i <= 9)
+while (i <= 9 )
 {
 _putchar(j);
 _putchar(i + 48);
@@ -29,6 +29,7 @@ i++;
 if (j > 0  && i == 4)
 break;
 j++;
+i = 0;
 }
 _putchar('\n');
 }
