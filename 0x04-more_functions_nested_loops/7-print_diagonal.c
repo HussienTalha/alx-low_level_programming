@@ -12,10 +12,10 @@ while (n > 0)
 {
 for (i = 1; i <= line; i++)
 {
-_putchar(' ');
+_putchar(32);
 }
 line++;
-_putchar('\\');
+_putchar(92);
 _putchar('\n');
 n--;
 }
