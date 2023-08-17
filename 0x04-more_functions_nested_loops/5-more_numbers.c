@@ -26,7 +26,7 @@ if (i == 4 && j > 0)
 break;
 i++;
 }
-if (j > 0  && i == 4)
+if (j > 0 && i == 4)
 break;
 j++;
 i = 0;
