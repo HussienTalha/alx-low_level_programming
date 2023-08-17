@@ -10,6 +10,8 @@ void print_triangle(int size)
 int line;
 int i;
 int y;
+if (size > 0)
+{
 line = 1;
 if (size < 0)
 size = -size;
@@ -28,4 +30,6 @@ _putchar('\n');
 line++;
 }
 }
-
+else
+_putchar('\n');
+}
