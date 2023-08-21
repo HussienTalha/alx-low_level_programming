@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _strlen - length of string
- * @*s: pointer to string
+ * @s: pointer to string
+ * Return : legth of string
  */
 int _strlen(char *s)
 {
