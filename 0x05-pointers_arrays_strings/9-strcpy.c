@@ -19,5 +19,5 @@ len++;
 src = src - len;
 dest = src - len;
 return (dest);
-return (0);
+return (dest);
 }
