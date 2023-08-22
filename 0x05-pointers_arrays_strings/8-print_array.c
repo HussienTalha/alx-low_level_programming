@@ -17,4 +17,6 @@ a++;
 }
 if (i == (n - 1))
 printf("%d\n", *a);
+else if (n < 0)
+printf("\n")
 }
