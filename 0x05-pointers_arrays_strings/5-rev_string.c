@@ -28,7 +28,7 @@ i++;
 tmp[i] = '\0';
 i = 0;
 s++;
-while (i <= (len + 1))
+while (i <= (len))
 {
 *s = tmp[i];
 s++;
