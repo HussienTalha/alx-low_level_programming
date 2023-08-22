@@ -12,14 +12,16 @@ while (*str != '\0')
 len++;
 str++;
 }
-str = str - (len + 1);
+str = str - len;
 if (len % 2 == 0)
 half = len / 2;
 else
 half = (len - 1) / 2;
-s = s + half
-while (*s != '\0')
+str = str + half;
+while (*str != '\0')
 {
-_putchar(*s);
+_putchar(*str);
+str++;
 }
+_putchar('\n');
 }
