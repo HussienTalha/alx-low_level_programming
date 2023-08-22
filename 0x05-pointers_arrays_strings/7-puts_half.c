@@ -16,7 +16,7 @@ str = str - len;
 if (len % 2 == 0)
 half = len / 2;
 else
-half = (len - 1) / 2;
+half = ((len - 1) / 2) - 1;
 str = str + half;
 while (*str != '\0')
 {
