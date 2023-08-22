@@ -15,7 +15,7 @@ len++;
 str++;
 }
 str = str - (len);
-while (i <= len)
+while (i < len)
 {
 _putchar(*str);
 i += 2;
