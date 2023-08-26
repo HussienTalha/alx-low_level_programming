@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- *
+ * _strncpy - copy n byte from string to another
+ * @dest: destination array
+ * @src: source array
+ * @n: number of array
+ * Return: return pointer to destination array
  *
  *
  */
@@ -16,6 +20,6 @@ for (i = 0; src[i] != '\0' && i < n; i++)
 dest[i] = src[i];
 }
 if (src[i] == '\0')
-dest[i] = src [i];
+dest[i] = src[i];
 return (dest);
 }
