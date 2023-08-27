@@ -12,8 +12,14 @@ int c;
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
-if (s[0] == '\0')
-break;
+if (i == 0)
+{
+if (c >= 97 && c <= 122)
+{
+c = c - 32;
+s[i + 1] = c;
+}
+}
 else
 switch (s[i])
 {
