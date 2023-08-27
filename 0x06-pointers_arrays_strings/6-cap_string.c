@@ -12,6 +12,9 @@ int c;
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
+if (s[0] == '\0')
+break;
+else
 switch (s[i])
 {
 case ' ': case '\t': case '\n': case ',': case ';': case '.':
