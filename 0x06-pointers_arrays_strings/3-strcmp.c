@@ -3,7 +3,7 @@
  * _strcmp - compare two string
  * @s1: first string
  * @s2: second string
- * Return: return the comparsion between the length of s1 and s2 
+ * Return: return the comparsion between the length of s1 and s2
  *
  *
  */
