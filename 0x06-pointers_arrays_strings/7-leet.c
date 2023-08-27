@@ -16,8 +16,6 @@ for (j = 0; j <= 19; j += 2)
 {
 if (s[i] == leet[j])
 s[i] = leet[j + 1];
-else
-continue;
 }
 }
 return (s);
