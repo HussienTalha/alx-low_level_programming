@@ -12,11 +12,11 @@ int c;
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
+c = s[i];
 if (i == 0 && c >= 97 && c <= 122)
 {
-c = s[i];
 c = c - 32;
-s[i + 1] = c;
+s[i] = c;
 }
 else
 switch (s[i])
