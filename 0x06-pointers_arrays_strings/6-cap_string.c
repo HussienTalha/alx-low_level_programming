@@ -12,14 +12,11 @@ int c;
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
-c = s[i + 1];
-if (i == 0)
-{
-if (c >= 97 && c <= 122)
+c = s[i];
+if (i == 0 && c >= 97 && c <= 122)
 {
 c = c - 32;
 s[i + 1] = c;
-}
 }
 else
 switch (s[i])
@@ -29,6 +26,7 @@ case '!': case '?': case '"': case '(': case ')': case '{': case '}':
 {
 if (c >= 97 && c <= 122)
 {
+c = s[i + 1];
 c = c - 32;
 s[i + 1] = c;
 }
