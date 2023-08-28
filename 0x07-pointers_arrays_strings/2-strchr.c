@@ -14,6 +14,7 @@ for (; *s != '\0'; s++)
 if (*s == c)
 return (s);
 break;
-}
+else
 return (0);
+}
 }
