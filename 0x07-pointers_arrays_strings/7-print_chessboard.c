@@ -2,7 +2,6 @@
 /**
  * print_chessboard - print chessboard
  * @a: pointer to board array
- * @8: number of rows
  *
  */
 void print_chessboard(char (*a)[8])
