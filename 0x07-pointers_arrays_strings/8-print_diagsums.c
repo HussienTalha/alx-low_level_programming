@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
+ * print_diagsums - print sum of diagonals
+ * @a: pointer to the base element of array
+ * @size: size of array
  *
  */
 void print_diagsums(int *a, int size)
 {
-int i, diag1, diag2, sum1, sum2; 
+int i, diag1, diag2, sum1, sum2;
 sum1 = sum2 = diag1 = diag2 = 0;
 for (i = 0; i < size; i++)
 {
