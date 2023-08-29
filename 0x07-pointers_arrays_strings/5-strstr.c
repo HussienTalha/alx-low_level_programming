@@ -16,7 +16,6 @@ char *result;
 result = 0;
 for (i = 0; haystack[i] != '\0'; i++)
 {
-if (haystack[i] == *needle)
 for (j = 0; needle[j] != '\0' && haystack[i + j] == needle[j]; j++)
 {
 continue;
