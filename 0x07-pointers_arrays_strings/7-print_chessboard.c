@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_chessboard - print chessboard
- * @a: pointer to board array 
+ * @a: pointer to board array
  * @8: number of rows
  *
  */
