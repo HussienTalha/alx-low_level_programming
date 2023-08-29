@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpbrk - locates the first occurrence in the string s 
+ * _strpbrk - locates the first occurrence in the string s
  * of any of the bytes in the string accept
  * @s: pointer to string s
  * @accept: pointer to string accept
@@ -23,6 +23,6 @@ break;
 }
 if (s[i] == '\0')
 return (0);
-else 
+else
 return (s + i);
 }
