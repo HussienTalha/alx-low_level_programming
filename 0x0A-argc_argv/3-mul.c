@@ -13,23 +13,27 @@ int main(int argc, char *argv[])
 {
 int i;
 int x;
+int n = 1;
 int result = 1;
 if (argc < 3)
 {
 printf("ERROR\n");
-return (1);
+n =+ 1;
 }
-for (i = 1; i < 3; i++)
+else
+{
+for (i = 1; i < argc; i++)
 {
 x = strtol(argv[i], NULL, 10);
 if (x == 0 && *argv[i] != '0')
 {
 printf("ERROR\n");
-return (1);
+n =+ 1;
 break;
 }
 result = result *x;
 }
 printf("%d\n", result);
-return (0);
+}
+return (n);
 }
