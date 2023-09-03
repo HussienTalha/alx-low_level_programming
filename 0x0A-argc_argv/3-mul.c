@@ -21,8 +21,8 @@ return (1);
 }
 for (i = 1; i < 3; i++)
 {
-x = strtol(argv[i], NULL, 10); 
-result = result * x;
+x = strtol(argv[i], NULL, 10);
+result = result *x;
 }
 printf("%d\n", result);
 return (0);
