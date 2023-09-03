@@ -1,1 +1,5 @@
-gcc -c $FNAME.c -o $FNAME.o
+#!/bin/bash
+gcc -c *.c
+ar -rc libmy.a *.o
+ranlib libmy.a
+
