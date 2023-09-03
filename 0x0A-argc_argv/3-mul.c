@@ -18,19 +18,13 @@ int result = 1;
 if (argc < 3)
 {
 printf("ERROR\n");
-n =+ 1;
+n = n + 1;
 }
 else
 {
 for (i = 1; i < argc; i++)
 {
 x = strtol(argv[i], NULL, 10);
-if (x == 0 && *argv[i] != '0')
-{
-printf("ERROR\n");
-n =+ 1;
-break;
-}
 result = result *x;
 }
 printf("%d\n", result);
