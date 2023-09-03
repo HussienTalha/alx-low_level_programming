@@ -24,7 +24,7 @@ for (i = 1; i < 3; i++)
 x = strtol(argv[i], NULL, 10);
 if (x == 0 && *argv[i] != '0')
 {
-printf ("ERROR\n");
+printf("ERROR\n");
 return (1);
 break;
 }
