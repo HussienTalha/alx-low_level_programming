@@ -22,6 +22,12 @@ return (1);
 for (i = 1; i < 3; i++)
 {
 x = strtol(argv[i], NULL, 10);
+if (x == 0 && argv[i] != '48')
+{
+printf ("ERROR\n");
+return (1);
+break;
+}
 result = result *x;
 }
 printf("%d\n", result);
