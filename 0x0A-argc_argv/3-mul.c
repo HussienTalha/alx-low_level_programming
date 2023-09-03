@@ -22,7 +22,7 @@ return (1);
 for (i = 1; i < 3; i++)
 {
 x = strtol(argv[i], NULL, 10);
-if (x == 0 && argv[i] != '48')
+if (x == 0 && *argv[i] != '0')
 {
 printf ("ERROR\n");
 return (1);
