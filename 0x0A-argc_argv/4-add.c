@@ -29,7 +29,7 @@ for (i = 0; i < argc; i++)
 x = atoi(argv[i]);
 if (x > 0)
 sum = sum + x;
-printf("%d\n", sum);
 }
+printf("%d\n", sum);
 return (0);
 }
