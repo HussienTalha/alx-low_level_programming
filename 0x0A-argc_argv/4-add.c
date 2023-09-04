@@ -18,7 +18,6 @@ int j = 0;
 int num;
 for (i = 1; i < argc; i++){
 len = strlen(argv[i]);
-printf("%d\n", len);
 x = strtol(argv[i], NULL, 10);
 num = x;
 while (num != 0)
@@ -26,7 +25,6 @@ while (num != 0)
 num = num / 10;
 j++;
 }
-printf("%d\n", j);
 if ((x == 0 && *argv[i] != '0') || j < len )
 {
 n++;
