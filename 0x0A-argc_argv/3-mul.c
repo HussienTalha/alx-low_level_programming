@@ -17,7 +17,7 @@ int n = 0;
 int result = 1;
 if (argc < 3)
 {
-printf("ERROR\n");
+printf("Error\n");
 n = n + 1;
 }
 else
