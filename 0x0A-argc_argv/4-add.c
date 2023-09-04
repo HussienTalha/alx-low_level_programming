@@ -11,12 +11,23 @@ int main(int argc, char **argv)
 {
 int i;
 int x;
+int len;
 int result = 0;
 int n = 0;
-for (i = 1; i < argc; i++)
-{
+int j = 0;
+int num;
+for (i = 1; i < argc; i++){
+len = strlen(argv[i]);
+printf("%d\n", len);
 x = strtol(argv[i], NULL, 10);
-if (x == 0 && *argv[i] != '0')
+num = x;
+while (num != 0)
+{
+num = num / 10;
+j++;
+}
+printf("%d\n", j);
+if ((x == 0 && *argv[i] != '0') || j < len )
 {
 n++;
 break;
