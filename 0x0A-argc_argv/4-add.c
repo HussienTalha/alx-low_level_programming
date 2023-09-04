@@ -24,9 +24,9 @@ return (1);
 }
 }
 }
-for (k = 1; k < argc; i++)
+for (k = 1; k < argc; k++)
 {
-x = atoi(argv[k]);
+x = strtol(argv[k], NULL, 10);
 if (x > 0)
 sum = sum + x;
 }
