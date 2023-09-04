@@ -1,40 +1,35 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 /**
- * main - addition
- * @argc: counter to the arguments
- * @argv: arguments entered main
+ * main - add postive numbers
+ * @argc: number of arguments entered command line
+ * @argv: array of pointers to strings that entered command line
  * Return: 1 if error 0 if successful
+ *
+ *
  */
 int main(int argc, char **argv)
 {
-int i;
-int x;
-int len;
-int result = 0;
-int n = 0;
-int j = 0;
-int num;
-for (i = 1; i < argc; i++){
-len = strlen(argv[i]);
-x = strtol(argv[i], NULL, 10);
-num = x;
-while (num != 0)
+int i, j, sum, x;
+sum = 0;
+for (i = 0; i < argc; i++)
 {
-num = num / 10;
-j++;
-}
-if ((x == 0 && *argv[i] != '0') || j < len )
+for (j = 0; argv[i][j] != '\0'; j++)
 {
-n++;
-break;
-}
-result = result + x;
-}
-if (i == argc)
-printf("%d\n", result);
-else
+if (argv[i][j] > '9' || arg[i][j] < '0')
+{
 printf("Error\n");
-return (n);
+return (0);
+}
+}
+}
+for (i = 0; i < argc; i++)
+{
+x = atoi(argv[i]);
+if (x > 0)
+sum = sum + x
+printf("%d\n", sum);
+return (0);
+}
 }
