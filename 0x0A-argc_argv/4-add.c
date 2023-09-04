@@ -9,24 +9,24 @@
  *
  *
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-int i, j, sum, x;
+int i, j, sum, x, k;
 sum = 0;
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 for (j = 0; argv[i][j] != '\0'; j++)
 {
 if (argv[i][j] > '9' || argv[i][j] < '0')
 {
 printf("Error\n");
-return (0);
+return (1);
 }
 }
 }
-for (i = 0; i < argc; i++)
+for (k = 1; k < argc; i++)
 {
-x = atoi(argv[i]);
+x = atoi(argv[k]);
 if (x > 0)
 sum = sum + x;
 }
