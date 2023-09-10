@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *
+ * _puts_recursion - puts function using recursion
+ * @s: pointer to the string
  *
  *
  *
