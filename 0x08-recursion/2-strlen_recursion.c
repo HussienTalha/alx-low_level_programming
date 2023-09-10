@@ -9,7 +9,7 @@ int _strlen_recursion(char *s)
 int len;
 s++;
 len = 1;
-if (*s == " ")
+if (*s == ' ')
 return (0);
 else 
 {
