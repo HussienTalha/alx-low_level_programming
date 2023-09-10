@@ -2,7 +2,8 @@
 
 int guess_sqrt(int n, int i);
 /**
- * _sqrt_recursion - takes the number pass it to another function and return the square root
+ * _sqrt_recursion - takes the number pass it to
+ * another function and return the square root
  * @n: number
  * Return: square root or -1 if sqrt doesn't exist
  *
@@ -16,7 +17,7 @@ return (guess_sqrt(n, 0));
 
 /**
  * guess_sqrt - tries different numbers to find the sqrt
- * @n: the number 
+ * @n: the number
  * @i: iterator
  * Return: sqrt if found -1 if not
  *
