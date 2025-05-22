@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *main - entry to the program
- *@n: charchter equivalent in ASCII
  *
  *Return: void
  */
