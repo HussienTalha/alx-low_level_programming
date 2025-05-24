@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *main - entry to the program
  *
@@ -7,6 +7,11 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char arr[] = "_putchar\n";
+	int i;
+
+	for (i = 0; arr[i] != '\n'; i++)
+		 _putchar(arr[i]);
+
 	return (0);
 }
