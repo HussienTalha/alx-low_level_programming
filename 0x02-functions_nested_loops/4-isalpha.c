@@ -2,7 +2,7 @@
 /**
  *_isalpha - checks for charchters
  *@c: value to be checked
- *@Return: 1 if charchter 0 otherwise
+ *Return: 1 if charchter 0 otherwise
  */
 int _isalpha(int c)
 {
