@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  *_isdigit - check if digit is numiric
  *@c: digit to be checked
  *Return: 1 if numiric 0 otherwise
