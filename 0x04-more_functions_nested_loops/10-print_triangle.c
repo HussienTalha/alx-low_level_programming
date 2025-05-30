@@ -22,5 +22,5 @@ void print_triangle(int n)
 		_putchar('\n');
 	}
 	if (n < 1)
-		_putchar('n');
+		_putchar('\n');
 }
