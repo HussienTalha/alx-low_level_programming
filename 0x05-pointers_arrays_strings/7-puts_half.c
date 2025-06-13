@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *
  * puts_half - prints the second half of string
- * s: pointer to the first charchter in the string
+ * @s: pointer to the first charchter in the string
  * Return: void
  */
 void puts_half(char *s)
