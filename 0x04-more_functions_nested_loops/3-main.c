@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *main - entry to the program
  *
@@ -7,10 +8,7 @@
  */
 int main(void)
 {
-	char i;
 
-	for (i = 48; i < 58; i++)
-		putchar(i);
-	putchar('\n');
+	print_numbers();
 	return (0);
 }
