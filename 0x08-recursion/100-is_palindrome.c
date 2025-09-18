@@ -1,6 +1,19 @@
 #include "main.h"
+
 int palindrome(char *s, int i, int len);
 
+/**
+ * _strlen_recursion - function that returns the length of a string
+ * @s: the string to get its length
+ * Return: length of the string
+ */
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+		return (0);
+
+	return (1 + _strlen_recursion(s + 1));
+}
 /**
  * is_palindrome - checks if a string is a palindrome
  * @s: string to reverse
@@ -26,6 +39,5 @@ int palindrome(char *s, int i, int len)
 		return (0);
 	else if (i >= len)
 		return (1);
-
-	palindrome(s, i + 1, len - 1);
+	return (palindrome(s, i + 1, len - 1));
 }
